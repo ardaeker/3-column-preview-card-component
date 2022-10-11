@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  max-width: 90rem;
+  max-height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+
+article {
+  min-width: 58.125rem;
+  max-height: 31.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+section {
+  max-width: 19.375rem;
+  max-height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2.813rem;
+}
+
+section figure {
+  margin-bottom: 2.5rem;
+  order: -1;
+}
+
+section h1,
+h2,
+h3 {
+  margin-bottom: 2.188rem;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+
+section p {
+  margin-bottom: 5rem;
+  font-size: 0.980rem;
+  line-height: 1.632;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+section a {
+  max-width: 9.063rem;
+  min-height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  transition: all 0.1s ease-out;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvs a {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.luxury a {
+  color: hsl(179, 100%, 13%);
+}
+
+section a:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+footer {
+  min-width: 20.313rem;
+  font-size: 0.75rem;
+}
+
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 58.125rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  padding: 0.5rem;
+  font-size: 0.938rem;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media (max-width: 58.438rem) {
+  body {
+    position: relative;
+  }
+
+  main {
+    max-width: 23.438rem;
+    min-height: 93.75rem;
+  }
+
+  article {
+    flex-direction: column;
+    min-width: 20.313rem;
+    max-height: 82.5rem;
+  }
+
+  section {
+    max-width: 20.313rem;
+    max-height: 27.5rem;
+  }
+
+  section p {
+    margin-bottom: 1.563rem;
+  }
+
+  footer {
+    left: 50%;
+    top: 97%;
+    min-width: 20.313rem;
+    font-size: 0.625rem;
+  }
+}
