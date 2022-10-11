@@ -26,7 +26,7 @@ main {
   background-color: hsl(0, 0%, 95%);
 }
 
-article {
+section {
   min-width: 58.125rem;
   max-height: 31.25rem;
   display: flex;
@@ -37,7 +37,7 @@ article {
   overflow: hidden;
 }
 
-section {
+article {
   max-width: 19.375rem;
   max-height: 31.25rem;
   display: flex;
