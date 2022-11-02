@@ -161,6 +161,8 @@ footer a {
   section {
     max-width: 20.313rem;
     max-height: 27.5rem;
+    flex-direction: column;
+    overflow: visible;
   }
 
   section p {
