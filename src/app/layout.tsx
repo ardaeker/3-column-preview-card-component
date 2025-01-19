@@ -41,7 +41,9 @@ export const metadata: Metadata = {
     'TypeScript',
     'Arda Eker',
   ],
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(
+    'https://3-column-preview-card-component-rouge-five.vercel.app/',
+  ),
   openGraph: {
     title: 'Frontend Mentor - 3 Column preview card component',
     description:
@@ -54,7 +56,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'http://localhost:3000',
+    canonical: 'https://3-column-preview-card-component-rouge-five.vercel.app',
   },
   icons: {
     icon: '/favicon.png',
