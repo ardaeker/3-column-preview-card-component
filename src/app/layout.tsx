@@ -23,9 +23,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Frontend Mentor - 3 Column preview card component',
+  title: 'Arda Eker - 3 Column preview card component',
   description:
-    'This website is a solution for the 3 Column preview card component challenge on Frontend Mentor. It is built with Next.js and Tailwind CSS. Coded by Arda Eker.',
+    'A pixel-perfect, mobile-first preview layout with semantic markup and SEO setup.',
   authors: {
     name: 'Arda Eker',
     url: 'https://github.com/ardaeker',
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
     'https://3-column-preview-card-component-rouge-five.vercel.app/',
   ),
   openGraph: {
-    title: 'Frontend Mentor - 3 Column preview card component',
+    title: 'Arda Eker - 3 Column preview card component',
     description:
-      'This website is a solution to the 3 Column preview card component challenge on Frontend Mentor. It is built with Next.js, Tailwind CSS, and TypeScript. Coded by Arda Eker.',
-    siteName: 'Frontend Mentor - 3 Column preview card component',
+      'A pixel-perfect, mobile-first preview layout with semantic markup and SEO setup.',
+    siteName: 'Arda Eker - 3 Column preview card component',
     images: [
       {
         url: 'opengraph-image.png',
@@ -57,9 +57,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://3-column-preview-card-component-rouge-five.vercel.app',
-  },
-  icons: {
-    icon: '/favicon.png',
   },
 };
 
